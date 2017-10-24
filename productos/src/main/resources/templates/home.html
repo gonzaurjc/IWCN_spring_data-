@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Spring Gonzalo Aguilar</title>
+    </head>
+    <body>
+        <h1 th:text="#{welcome}"> Default greetings </h1>
+        <br/>
+        <ul>
+            <li> <a th:text="#{list}" href="/listado">Listado de productos</a> </li>
+            <li> <a th:text="#{insert}" href="/insertar"> Nuevo producto</a></li>
+        </ul>
+    </body>
+</html>
